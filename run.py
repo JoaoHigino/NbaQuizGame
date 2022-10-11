@@ -28,7 +28,7 @@ age = int(input("Please enter your age: "))
 
 days = 365 * age
 
-print("Hello " + username + ", you've been alive for" + str(days) + " days")
+print("Hello " + username + ", you've been alive for:" + str(days) + " days")
 # -------------------------
 # This is the main function which will run the quiz
 
@@ -83,8 +83,8 @@ def display_score(correct_guesses, guesses):
         print(i, end=" ")
     print()
 
-    score = int((correct_guesses/len(questions))*100)
-    print("Your score is: "+str(score)+"%")
+    score = int((correct_guesses/len(questions))*10)
+    print("Your score is: "+str(score))
 
 # -------------------------
 
