@@ -84,17 +84,16 @@ def play_again():
 
 
 questions = {
-    "Who created Python?: ": "A",
-    "What year was Python created?: ": "B",
-    "Python is tributed to which comedy group?: ": "C",
+    "Who created Microsoft?: ": "C",
+    "What year was Microsoft created?: ": "D",
+    "From where Monty Python are from?: ": "C",
     "Is the Earth round?: ": "A"
 }
 
-options = [["A. van Rossum", "B. E.Musk", "C. B.Gates", "D. M Zuckerburg"],
-          ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
-          ["A. Lonely Island", "B. Smosh", "C. Monty Python", "D. SNL"],
-          ["A. True","B. False", "C. sometimes", "D. What's Earth?"]]
-
+options = [["A. J. Bezos", "B. E.Musk", "C. B.Gates", "D. M. Zuckerburg"],
+           ["A. 1989", "B. 1981", "C. 1970", "D. 1975"],
+           ["A. USA", "B. Australia", "C. UK", "D. New Zealand"],
+           ["A. True", "B. False", "C. sometimes", "D. What's Earth?"]]
 
 
 new_game()
