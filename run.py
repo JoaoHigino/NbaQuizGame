@@ -110,10 +110,10 @@ questions = {
 }
 # These are the quiz options
 options = [
-        ["A. J.Stockton", "B. M.Johnson", "C. L.Wilkens", "D. S.Skiles"],
-        ["A. B.Wells", "B. R.Wallace", "C. D.Rodman", "D. A.Gilmore"],
-        ["A. D.Mutombo", "B. Kareem", "C. H.Olajuwon", "D. T.Duncan"],
-        ["A. D.Nowitzki", "B. R.Parish", "C. V.Carter", "D. Kareem"]]
+    ["A. J.Stockton", "B. M.Johnson", "C. L.Wilkens", "D. S.Skiles"],
+    ["A. B.Wells", "B. R.Wallace", "C. D.Rodman", "D. A.Gilmore"],
+    ["A. D.Mutombo", "B. Kareem", "C. H.Olajuwon", "D. T.Duncan"],
+    ["A. D.Nowitzki", "B. R.Parish", "C. V.Carter", "D. Kareem"]]
 
 
 new_game()
