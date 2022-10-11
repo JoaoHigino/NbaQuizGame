@@ -15,6 +15,16 @@
 # SHEET = GSPREAD_CLIENT.open('quiz_game')
 
 # -------------------------
+username = input("Type in your name and press return: ")
+
+age = int(input("Please enter your age: "))
+
+days = 365 * age
+
+print("Hello " + username + ", you have been alive for" + str(days) + " days")
+# -------------------------
+
+
 def new_game():
 
     guesses = []
