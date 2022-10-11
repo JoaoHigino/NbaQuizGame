@@ -21,7 +21,7 @@ age = int(input("Please enter your age: "))
 
 days = 365 * age
 
-print("Hello " + username + ", you have been alive for" + str(days) + " days")
+print("Hello " + username + ", you've been alive for" + str(days) + " days")
 # -------------------------
 
 
@@ -94,16 +94,16 @@ def play_again():
 
 
 questions = {
-    "Who created Microsoft?: ": "C",
-    "What year was Microsoft created?: ": "D",
-    "From where Monty Python are from?: ": "C",
-    "Is the Earth round?: ": "A"
+    "Who has the most assists in a single NBA game?: ": "D",
+    "Who has Fastest foul out in nba history?: ": "A",
+    "Who has the most Blocks in NBA history?: ": "C",
+    "Who has the most games in NBA history?: ": "B"
 }
 
-options = [["A. J. Bezos", "B. E.Musk", "C. B.Gates", "D. M. Zuckerburg"],
-           ["A. 1989", "B. 1981", "C. 1970", "D. 1975"],
-           ["A. USA", "B. Australia", "C. UK", "D. New Zealand"],
-           ["A. True", "B. False", "C. sometimes", "D. What's Earth?"]]
+options = [["A. J.Stockton", "B. M.Johnson", "C. L.Wilkens", "D. S.Skiles"],
+           ["A. B.Wells", "B. R.Wallace", "C. D.Rodman", "D. A.Gilmore"],
+           ["A. D.Mutombo", "B. Kareem", "C. H.Olajuwon", "D. T.Duncan"],
+           ["A. D.Nowitzki", "B. R.Parish", "C. V.Carter", "D. Kareem"]]
 
 
 new_game()
