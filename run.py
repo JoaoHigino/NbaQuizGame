@@ -15,6 +15,13 @@
 # SHEET = GSPREAD_CLIENT.open('quiz_game')
 
 # -------------------------
+print("Do you think you are the expert in NBA?")
+print("-------------------------")
+print("The quiz has _ questions about NBA")
+print("-------------------------")
+print("If you still feel confident, please follow the steps below:")
+print("-------------------------")
+
 username = input("Type in your name and press return: ")
 
 age = int(input("Please enter your age: "))
@@ -23,6 +30,7 @@ days = 365 * age
 
 print("Hello " + username + ", you've been alive for" + str(days) + " days")
 # -------------------------
+# This is the main function which will run the quiz
 
 
 def new_game():
@@ -91,6 +99,7 @@ def play_again():
     else:
         return False
 # -------------------------
+# These are the quiz questions and answers
 
 
 questions = {
@@ -99,11 +108,12 @@ questions = {
     "Who has the most Blocks in NBA history?: ": "C",
     "Who has the most games in NBA history?: ": "B"
 }
-
-options = [["A. J.Stockton", "B. M.Johnson", "C. L.Wilkens", "D. S.Skiles"],
-           ["A. B.Wells", "B. R.Wallace", "C. D.Rodman", "D. A.Gilmore"],
-           ["A. D.Mutombo", "B. Kareem", "C. H.Olajuwon", "D. T.Duncan"],
-           ["A. D.Nowitzki", "B. R.Parish", "C. V.Carter", "D. Kareem"]]
+# These are the quiz options
+options = [
+        ["A. J.Stockton", "B. M.Johnson", "C. L.Wilkens", "D. S.Skiles"],
+        ["A. B.Wells", "B. R.Wallace", "C. D.Rodman", "D. A.Gilmore"],
+        ["A. D.Mutombo", "B. Kareem", "C. H.Olajuwon", "D. T.Duncan"],
+        ["A. D.Nowitzki", "B. R.Parish", "C. V.Carter", "D. Kareem"]]
 
 
 new_game()
@@ -111,6 +121,6 @@ new_game()
 while play_again():
     new_game()
 
-print("!")
+print("BYE!")
 
 # -------------------------
