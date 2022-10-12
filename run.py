@@ -112,6 +112,8 @@ questions = {
     "Who has the best career free throw percent?": "A",
     "Who was 2008 nba champion?": "C",
     "Who has the most MVP in nba history?": "B",
+    "Who is nba logo?": "C",
+    "Which team is not in the Central Division?": "B",
 
 }
 # These are the quiz options
@@ -124,7 +126,10 @@ options = [
     ["A. K.Durant", "B. S.Curry", "C. B.Griffin", "D. T.Chandler"],
     ["A. S.Curry", "B. S.Nash", "C. M.Price", "D. P.Stojaković"],
     ["A. SA Spurs", "B. Miami Heat", "C. Boston Celtics", "D. Lakers"],
-    ["A. B.Russell", "B. Kareem", "C. W.Chamberlain", "D. M.Jordan"]]
+    ["A. B.Russell", "B. Kareem", "C. W.Chamberlain", "D. M.Jordan"],
+    ["A. W.Chamberlain", "B. M.Jordan", "C. J.West", "D. M.Johnson"],
+    ["A. Pistons", "B. Raptors", "C. Bucks", "D. Bulls"]]
+
 
 new_game()
 
