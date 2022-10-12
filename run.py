@@ -17,7 +17,7 @@
 # -------------------------
 print("Do you think you are the expert in NBA?")
 print("-------------------------")
-print("The quiz has _ questions about NBA")
+print("The quiz has 20 questions about NBA")
 print("-------------------------")
 print("If you still feel confident, please follow the steps below:")
 print("-------------------------")
@@ -28,7 +28,7 @@ age = int(input("Please enter your age: "))
 
 days = 365 * age
 
-print("Hello " + username + ", you've been alive for:" + str(days) + " days")
+print("Hello " + username + ", you've been alive for: " + str(days) + " days")
 # -------------------------
 # This is the main function which will run the quiz
 
