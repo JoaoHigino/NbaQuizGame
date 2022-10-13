@@ -57,7 +57,7 @@ def check_answer(answer, guess):
 
     if answer == guess:
         print("CORRECT!")
-        return 1
+        return 10
     else:
         print("WRONG!")
         return 0
