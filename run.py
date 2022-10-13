@@ -25,6 +25,7 @@ print("-------------------------")
 
 username = input("Type in your name and press enter: ")
 
+print("Hello " + username + ", lets see how good you are!")
 # -------------------------
 # This is the main function which will run the quiz
 
@@ -79,7 +80,7 @@ def display_score(correct_guesses, guesses):
         print(i, end=" ")
     print()
 
-    score = int((correct_guesses/len(questions))*10)
+    score = int((correct_guesses/len(questions))*100)
     print("Your score is: "+str(score))
 
 # -------------------------
