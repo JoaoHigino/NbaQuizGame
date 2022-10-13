@@ -23,13 +23,8 @@ print("-------------------------")
 print("If you still feel confident, please follow the steps below:")
 print("-------------------------")
 
-username = input("Type in your name and press return: ")
+username = input("Type in your name and press enter: ")
 
-age = int(input("Please enter your age: "))
-
-days = 365 * age
-
-print("Hello " + username + ", you've been alive for: " + str(days) + " days")
 # -------------------------
 # This is the main function which will run the quiz
 
