@@ -3,13 +3,13 @@ QUESTIONS = {
     "Who has Fastest foul out in nba history?: ": "A",
     "Who has the most Blocks in NBA history?: ": "C",
     "Who has the most games in NBA history?: ": "B",
-    # "Who has the biggest team winning streak?: ": "B",
-    # "Which one was 1st pick on Nba draft?: ": "C",
-    # "Who has the best career free throw percent?": "A",
-    # "Who was 2008 nba champion?": "C",
-    # "Who has the most MVP in nba history?": "B",
-    # "Who is nba logo?": "C",
-    # "Which team is not in the Central Division?": "B",
+    "Who has the biggest team winning streak?: ": "B",
+    "Which one was 1st pick on NBA draft?: ": "C",
+    "Who has the best career free throw percent?": "A",
+    "Who was 2008 NBA champion?": "C",
+    "Who has the most MVP in NBA history?": "B",
+    "Who is NBA logo?": "C",
+    "Which team is not in the Central Division?": "D"
 }
 
 # These are the quiz options
@@ -18,11 +18,11 @@ OPTIONS = [
     ["A. B.Wells", "B. R.Wallace", "C. D.Rodman", "D. A.Gilmore"],
     ["A. D.Mutombo", "B. Kareem", "C. H.Olajuwon", "D. T.Duncan"],
     ["A. D.Nowitzki", "B. R.Parish", "C. V.Carter", "D. Kareem"],
-    # ["A. GS Warriors", "B. Lakers", "C. Boston Celtics", "D. Chicago Bulls"],
-    # ["A. K.Durant", "B. S.Curry", "C. B.Griffin", "D. T.Chandler"],
-    # ["A. S.Curry", "B. S.Nash", "C. M.Price", "D. P.Stojaković"],
-    # ["A. SA Spurs", "B. Miami Heat", "C. Boston Celtics", "D. Lakers"],
-    # ["A. B.Russell", "B. Kareem", "C. W.Chamberlain", "D. M.Jordan"],
-    # ["A. W.Chamberlain", "B. M.Jordan", "C. J.West", "D. M.Johnson"],
-    # ["A. Pistons", "B. Raptors", "C. Bucks", "D. Bulls"]
+    ["A. GS Warriors", "B. Lakers", "C. Boston Celtics", "D. Chicago Bulls"],
+    ["A. K.Durant", "B. S.Curry", "C. B.Griffin", "D. T.Chandler"],
+    ["A. S.Curry", "B. S.Nash", "C. M.Price", "D. P.Stojaković"],
+    ["A. SA Spurs", "B. Miami Heat", "C. Boston Celtics", "D. Lakers"],
+    ["A. B.Russell", "B. Kareem", "C. W.Chamberlain", "D. M.Jordan"],
+    ["A. W.Chamberlain", "B. M.Jordan", "C. J.West", "D. M.Johnson"],
+    ["A. Pistons", "B. Bulls ", "C. Bucks", "D. Raptors"]
 ]
