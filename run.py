@@ -1,5 +1,6 @@
 import os
 from data import QUESTIONS, OPTIONS
+import pyfiglet
 
 
 def clear():
@@ -9,6 +10,8 @@ def clear():
 clear()
 
 # -------------------------
+ascii_banner = pyfiglet.figlet_format("NBA QUIZ GAME!!")
+print(ascii_banner)
 print("Do you think you are the expert in NBA?")
 print("-------------------------")
 print(f"The quiz has {len(QUESTIONS)} questions about NBA")
