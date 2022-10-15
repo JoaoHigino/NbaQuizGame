@@ -108,7 +108,7 @@ def play_again():
         else:
             clear()
             print("It's not a valid option, please try again")
-            # return False
+
 # -------------------------
 # These are the quiz questions and answers
 
