@@ -101,9 +101,14 @@ def play_again():
         response = input("Do you want to play again? (yes or no): ").upper()
         choices = ["YES", "NO"]
         if response in choices:
-            return True
+            if response == "YES":
+                return True
+            else:
+                return False
         else:
-            return False
+            clear()
+            print("It's not a valid option, please try again")
+            # return False
 # -------------------------
 # These are the quiz questions and answers
 
