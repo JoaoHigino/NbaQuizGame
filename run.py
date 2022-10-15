@@ -1,6 +1,7 @@
 import os
 from data import QUESTIONS, OPTIONS
 import pyfiglet
+pyfiglet == 0.8
 
 
 def clear():
