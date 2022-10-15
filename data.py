@@ -9,7 +9,12 @@ QUESTIONS = {
     "Who was 2008 NBA champion?": "C",
     "Who has the most MVP in NBA history?": "B",
     "Who is NBA logo?": "C",
-    "Which team is not in the Central Division?": "D"
+    "Which team is not in the Central Division?": "D",
+    "Who was the oldest player to play in a NBA game?": "A",
+    "Which coach has the highest win percentage(min 500 games)?": "D",
+    "Where Hakeem 'The Dream' Olajuwon was born?": "B",
+
+
 }
 
 # These are the quiz options
@@ -24,5 +29,8 @@ OPTIONS = [
     ["A. SA Spurs", "B. Miami Heat", "C. Boston Celtics", "D. Lakers"],
     ["A. B.Russell", "B. Kareem", "C. W.Chamberlain", "D. M.Jordan"],
     ["A. W.Chamberlain", "B. M.Jordan", "C. J.West", "D. M.Johnson"],
-    ["A. Pistons", "B. Bulls ", "C. Bucks", "D. Raptors"]
+    ["A. Pistons", "B. Bulls ", "C. Bucks", "D. Raptors"],
+    ["A. Nat Hickey", "B. Vince Carter ", "C. Kevin Willis", "D. R.Parrish"],
+    ["A. Billy Cunningham", "B. K.C. Jones", "C. G.Popovich", "D. P.Jackson"],
+    ["A. USA", "B. Nigeria", "C. Cameroon", "D. Ghana"]
 ]

@@ -10,8 +10,8 @@ def clear():
 clear()
 
 # -------------------------
-ascii_banner = pyfiglet.figlet_format("NBA QUIZ GAME!!")
-print(ascii_banner)
+banner = pyfiglet.figlet_format("NBA QUIZ GAME!!")
+print(banner)
 print("Do you think you are the expert in NBA?")
 print("-------------------------")
 print(f"The quiz has {len(QUESTIONS)} questions about NBA")
