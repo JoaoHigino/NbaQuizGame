@@ -13,6 +13,8 @@ QUESTIONS = {
     "Who was the oldest player to play in a NBA game?": "A",
     "Which coach has the highest win percentage(min 500 games)?": "D",
     "Where Hakeem 'The Dream' Olajuwon was born?": "B",
+    "Who has is the NBA career leader in personal fouls?": "A",
+    "Who has the most free-throws missed in one game?": "D",
 
 
 }
@@ -32,5 +34,7 @@ OPTIONS = [
     ["A. Pistons", "B. Bulls ", "C. Bucks", "D. Raptors"],
     ["A. Nat Hickey", "B. Vince Carter ", "C. Kevin Willis", "D. R.Parrish"],
     ["A. Billy Cunningham", "B. K.C. Jones", "C. G.Popovich", "D. P.Jackson"],
-    ["A. USA", "B. Nigeria", "C. Cameroon", "D. Ghana"]
+    ["A. USA", "B. Nigeria", "C. Cameroon", "D. Ghana"],
+    ["A.  Kareem", "B. R.Parrish", "C. Charles Oakley ", "D. Karl Malone"],
+    ["A. W.Chamberlain", "B. DeAndre Jordan", "C. D.Howard", "D. A.Drummond"],
 ]
