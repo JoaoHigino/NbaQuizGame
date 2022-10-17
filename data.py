@@ -1,3 +1,4 @@
+# These are the quiz questions
 QUESTIONS = {
     "Who has the most assists in a single NBA game?: ": "D",
     "Who has the Fastest foul out in NBA history?: ": "A",
@@ -11,13 +12,14 @@ QUESTIONS = {
     "Who was the 2008 NBA champion?": "C",
     "Who has the most MVP in NBA history?": "B",
     "Who is the NBA logo?": "C",
+    "Who was the oldest NBA MVP finals?": "B",
     "Which team is not in the Central Division?": "D",
     "Who was the oldest player to play in an NBA game?": "A",
     "Which coach has the highest win percentage(min 500 games)?": "D",
     "Where Hakeem 'The Dream' Olajuwon was born?": "B",
     "Who is the NBA career leader in personal fouls?": "A",
     "Who has the most free throws missed in one game?": "D",
-
+    "Who was the youngest NBA MVP finals?": "C"
 }
 
 # These are the quiz options
@@ -34,11 +36,12 @@ OPTIONS = [
     ["A. SA Spurs", "B. Miami Heat", "C. Boston Celtics", "D. Lakers"],
     ["A. B.Russell", "B. Kareem", "C. W.Chamberlain", "D. M.Jordan"],
     ["A. W.Chamberlain", "B. M.Jordan", "C. J.West", "D. M.Johnson"],
+    ["A. L.James", "B. Kareem", "C. M.Jordan", "D. W.Chamberlain"],
     ["A. Pistons", "B. Bulls ", "C. Bucks", "D. Raptors"],
     ["A. Nat Hickey", "B. Vince Carter ", "C. Kevin Willis", "D. R.Parrish"],
     ["A. Billy Cunningham", "B. K.C. Jones", "C. G.Popovich", "D. P.Jackson"],
     ["A. USA", "B. Nigeria", "C. Cameroon", "D. Ghana"],
     ["A. Kareem", "B. R.Parrish", "C. Charles Oakley ", "D. Karl Malone"],
-    ["A. W.Chamberlain", "B. DeAndre Jordan", "C. D.Howard", "D. A.Drummond"],
-    
+    ["A. W.Chamberlain", "B. DeAndre Jordan", "C. D.Howard", "D. A.Drummond"]
+    ["A. Kareem", "B. K.Leonard", "C. M.Johnson", "D. T.Duncan"]
 ]
