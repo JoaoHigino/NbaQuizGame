@@ -42,6 +42,6 @@ OPTIONS = [
     ["A. Billy Cunningham", "B. K.C. Jones", "C. G.Popovich", "D. P.Jackson"],
     ["A. USA", "B. Nigeria", "C. Cameroon", "D. Ghana"],
     ["A. Kareem", "B. R.Parrish", "C. Charles Oakley ", "D. Karl Malone"],
-    ["A. W.Chamberlain", "B. DeAndre Jordan", "C. D Howard", "D. A Drummond"]
+    ["A. W.Chamberlain", "B. DeAndre Jordan", "C. Howard", "D. Drummond"],
     ["A. Kareem", "B. K.Leonard", "C. M.Johnson", "D. T.Duncan"]
 ]
