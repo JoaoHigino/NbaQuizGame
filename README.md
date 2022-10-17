@@ -1,8 +1,8 @@
 # NBA Quiz Game
 
-NBA Quiz Game refers to a short test of knowledge, typically around 10 questions in length, with question formats often including multiple choice, fill in the blanks, true or false and short answer. A quiz is much shorter than a traditional test or exam and is rarely impactful on a final course grade.
+NBA Quiz Game refers to a short test of knowledge, with 20 questions in length with multiple choice. This Quiz has no commercial intention.
 
-![diferent views](documents/pawpatrolresponsive.png)
+![diferent views]()
 
 ## Existing Features
 

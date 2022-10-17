@@ -9,7 +9,7 @@ def clear():
 
 clear()
 
-# -------------------------
+# welcome menu
 banner = pyfiglet.figlet_format("NBA QUIZ GAME!!")
 print(banner)
 print("Do you think you are the expert in NBA?")
@@ -18,6 +18,8 @@ print(f"The quiz has {len(QUESTIONS)} questions about NBA")
 print("-------------------------")
 print("If you still feel confident, please follow the steps below:")
 print("-------------------------")
+
+# username menu
 
 
 def check_username():
@@ -31,7 +33,7 @@ def check_username():
         print(f"{username} is not valid. try again")
 
 
-# -------------------------
+# Answers function
 def check_input():
 
     while True:
@@ -62,7 +64,7 @@ def new_game():
 
     display_score(correct_guesses, guesses)
 
-# -------------------------
+# This function will check if the answer is correct or not
 
 
 def check_answer(answer, guess):
@@ -74,7 +76,7 @@ def check_answer(answer, guess):
         print("WRONG!")
         return 0
 
-# -------------------------
+# This function will compile all the awswers and give a final result
 
 
 def display_score(correct_guesses, guesses):
@@ -96,7 +98,7 @@ def display_score(correct_guesses, guesses):
     print(f"You scored : {correct_guesses} out of {len(QUESTIONS)}")
     print(f"Your score is: {str(score)}%")
 
-# -------------------------
+# This funcion will ask the player if they want to play again
 
 
 def play_again():
