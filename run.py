@@ -113,7 +113,6 @@ def play_again():
             print("It's not a valid option, please try again")
 
 # -------------------------
-# These are the quiz questions and answers
 
 
 check_username()

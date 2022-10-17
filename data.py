@@ -1,3 +1,4 @@
+# These are the quiz questions and answers
 # These are the quiz questions
 QUESTIONS = {
     "Who has the most assists in a single NBA game?: ": "D",
