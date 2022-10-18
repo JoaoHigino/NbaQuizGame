@@ -28,7 +28,7 @@ At the end of each game, you will be asked if you want to play again.
 - Restart Game Button
 
   - This button allows the player to reset the game.
-  
+
  ![restart button](documents/restart.png)
 
 - Username
@@ -127,11 +127,35 @@ At the end of each game, you will be asked if you want to play again.
 ![bug](documents/controlerror.png)
 
 
-## Deployment!!!!!!!!!!!!!!!!
+## Deployment
 
+* Instructions for deployment:
 
-### Local Deployment!!!!!!!!!!
+  1 Create Heroku account or login
 
+  2 Create new app
+
+  3 If your using a creds.json file then go to Heroku settings and click "reveal config vars". 
+        
+    * In key type CREDS and in value paste your whole creds.json file text.
+
+    * Again if you don't need to use creds.json file then skip to next step.
+
+  4 Make sure to include fallowing buildpacks:
+
+    * Heroku/python
+
+    * Heroku/nodejs
+
+  5 Go to Deploy section in Heroku.
+
+  6 Click Github for deployment. Then click connect to Github. Login to Github to connect Heroku to Github.
+
+    * Then type in your repo name and hit search.
+
+    * Click connect to connect your project repo to Heroku.
+
+  7 Scroll down to Enable Manual deployments. You need to manual deplay every time after push on gitpod. Click deploy and wait until the project is build, watch out for any errors.
 
 
 ## Credits
