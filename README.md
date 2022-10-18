@@ -2,52 +2,78 @@
 
 NBA Quiz Game refers to a short test of knowledge, with 20 questions in length with multiple choice. This Quiz has no commercial intention.
 
-![diferent views]()
+[Link to my code via Github pages](https://github.com/JoaoHigino/NbaQuizGame)
 
-## Existing Features
+[Link to my Application deployed by Heroku](https://nbaquizgame.herokuapp.com)
 
-- __Header__
+![diferent views](documents/iamresponsive.png)
 
-  - Featured the game logo, game tittle, game timer, and the how-to-play and start/reset buttons. 
+## How To Play
 
-![header](documents/header.png)
+First, you will need to enter your name to start the game. 
+
+Then the quiz will start, it is a multiple choice game (A,B,C,D).
+
+There are 20 questions and you get 5% for right answers and 0 for wrong. If you answer all the 20 questions correctely you get 100%.
+
+The restart button is always available to reset the game and start over.
+
+At the end of each game, you will be asked if you want to play again.
 
 
- - __How to Play button__
+## Features
 
-  - When clicked will open a pop-up window with the rules. 
+### Existing Features
+
+- Restart Game Button
+
+  - This button allows the player to reset the game.
   
+ ![restart button](documents/restart.png)
 
- ![how to play](documents/howtoplay.png)
+- Username
 
- - __How to Play pop-up__
+ ![Username](documents/username.png)
 
-  - When clicked How to play button will show up all the rules, how to win the game and the commercial intention.
+- Quiz
 
- ![rules](documents/rules.png)
+  - The beginning menu will introduce you to the game and ask you to write your username.
 
- - __Start button__
+![main](documents/main.png)
 
-  - When clicked the game starts.
+  - When the game starts a question will appear and the player needs to choose an option between A, B, C, D.
 
- ![start](documents/start.png)
+![question](documents/question.png)
 
-- __Reset button__
+  - All 20 questions are different with different options to choose from.
 
-  - This button will reset the game to and start it again.  
+![question2](documents/question2.png)
 
- ![reset](documents/reset.png)
+  - When the player answers correctly a CORRECT! will show on the top of the screen.
 
- - __Timer__
+![correct answer](documents/correct.png)
 
- - This tracks how long the games is active, once all matches are found the timer stops. 
+  - When the player answers incorrectly a WRONG! will show on the top of the screen.
 
- ![reset](documents/timer.png)
+![wrong answer](documents/wrong.png)
+
+  - When the player tries to answer a different option outside the valid ones(A, B, C, D) an error message will show up and asks the player to try again.
+
+![invalid answer](documents/wronganswer.png)
+
+  - When the game concludes the results are presented with all the player answers and the correct answers, which will give a score out of 20 and a total %.
+
+![final](documents/final.png)
+
+  - After the final result a message asks if the player wants to play again, if the answer is "yes" the game will restart and if the answer is "no" a BYE message shows and the program ends.
+
+![play again](documents/playagain.png)
+
 
 
 ## Features Left to Implement
 
-- Create a player every time the game starts and create a leaderboard with the results. 
+- Create a scoreborad to compile all time results. 
 
 ## Technologies Used
 
@@ -75,7 +101,7 @@ NBA Quiz Game refers to a short test of knowledge, with 20 questions in length w
 
  - Opera
 
- ![opera checker](documents/opera.jpeg)
+ ![opera checker](documents/opera.png)
 
  - Edge
 
@@ -85,112 +111,55 @@ NBA Quiz Game refers to a short test of knowledge, with 20 questions in length w
 
  ![safari checker](documents/safari.jpeg)
 
-### Mobile Testing 
 
-- The website was viewed on a variety of devices such as desktops, Laptops, Apples Products and a range of Android devices:
-
-  - Iphone 12
-
-  ![iphone checker](documents/iphone12.png)
-   
-  - Ipad Mini
-
-  ![ipad checker](documents/ipad.png)
-   
-  - Samsung Galaxy A13
-
-  ![galaxy checker](documents/galaxy.png)
-   
-  - One Plus 9
-
-  ![one plus checker](documents/oneplus9.png)
-   
-  - Huawei Y5P
-
-  ![huawei checker](documents/huawei.jpeg)
-   
 
 
 ### Validator Testing 
 
-- HTML
-
-  - No errors were returned when passing through the official
-  ![html checker](documents/html.png)
-
-- CSS
-
-  - No errors were found when passing through the official
-  ![w3c](documents/w3c.png)
-  
-- JavaScript
-
-  - No errors were found when passing through the official 
-   
-  ![jshint](documents/jshint.png)
-
-- Lighhouse
-
-  - The site scored well
-
-  ![performance](documents/performance.png)
-
-
+  - Built into Code Institute template. Add-ons allow for error checking.
+  - Pep8 website down for testing.
 
 
 ### Unfixed Bugs
 
-I am aware of a random bug that doesn't affect the game play and cannot find a solution to fix it before the deadline.
-When I have more time after the course I will investigate so it doesn't occur.
+  - I am aware when you press control+c the game stops, it was a helpfull feature used during testing.
 
-![bug](documents/bug.png)
+![bug](documents/controlerror.png)
 
-## Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/JoaoHigino/PawPatrol-MemoryGame), navigate to the Settings tab 
-  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
-  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+## Deployment!!!!!!!!!!!!!!!!
 
-The live link can be found [here](https://joaohigino.github.io/PawPatrol-MemoryGame/)
 
-### Local Deployment
+### Local Deployment!!!!!!!!!!
 
-In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/JoaoHigino/PawPatrol-MemoryGame.git`
-
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JoaoHigino/PawPatrol-MemoryGame)
 
 ## Credits
 
 ### Media
 
- - [Card Images](https://pawpatrol.fandom.com/wiki/PAW_Patrol_Wiki)
-
- - [Background Image](https://www.facebook.com/240240796909527/photos/a.547312462869024/547314762868794/?type=3)
+ - [Background Image](https://wallpaperaccess.com/full/103106.jpg)
 
 ### Sources
 
-- [Memory Card Game - JavaScript Tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1505s)
+- [Interactive Quiz Game](https://www.makeuseof.com/python-make-interactive-quiz-game/)
 
-- [Memory-game](https://marina-ferreira.github.io/projects/js/memory-game/)
+- [Hangman](https://github.com/Kaylaesmith1/python-hangman/blob/main/views/layout.html)
 
-- [JavaScript Memory Match](https://github.com/jamesqquick/javascript-memory-match/blob/master/app.js)
+- [Python Tutorial - Multiple Choice Quiz](https://www.youtube.com/watch?v=myJ36xIR7Yg)
 
-- [Sea Creature Memory Game](https://kaylaesmith1.github.io/sea-creature-memory-game/)
+- [How to Generate Multiple Choice Questions with Python](https://pythonprogramming.altervista.org/how-to-generate-multiple-choice-questions-with-python/?doing_wp_cron=1665429912.8629679679870605468750)
 
-- [Reset a Sketch with Button Click](https://www.youtube.com/watch?v=lm8Y8TD4CTM)
+- [Football Quiz](https://github.com/mikyrenato/3rd_Project_Quiz_Game)
 
-- [How to randomize array](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
+- [Most Embarassing NBA Records](https://basketballforever.com/2020/06/12/the-most-embarrassing-nba-records-of-all-time-2)
 
-- [Arrow Swipe Game with HTML, CSS and JavaScript](https://www.youtube.com/watch?v=1Au5rgP_V7E)
+- [Most Umbreakable Records NBA History](https://www.nbcsports.com/chicago/bulls/10-most-unbreakable-records-nba-history)
 
-- [Building the Memory/Concentration card game with JavaScript](https://www.youtube.com/watch?v=ADwdef6vXZU&t=598s)
+- [NBA Stats](https://www.nba.com/stats)
 
-- [How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&t=1823s)
+- [Basketball Reference](https://www.basketball-reference.com/)
+
 
 ### Acknowledgements
 
