@@ -77,18 +77,14 @@ At the end of each game, you will be asked if you want to play again.
 
 ## Technologies Used
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Wikipedia](https://en.wikipedia.org/wiki/Concentration_(card_game))- was used to check the memory game rules
+- [Python3](https://www.python.org/)
+- [Heroku](https://heroku.com) - was used to deploy the application.
 - [Gitpod](https://www.gitpod.io) - was used to create the website
 - [Github](https://github.com) - was used to store repository of website and deploy the website
-- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools) - was used to view and experiment with styles
-- [Google Fonts](https://fonts.google.com) - was used to find the fonts for the website
-- [Pexels](https://www.pexels.com) - provided the images seen throughout the website
+- [Create Ascii](https://www.devdungeon.com/content/create-ascii-art-text-banners-python#use_pyfiglet_python) - was used to art text banners
+- [NBA Wallpaper](https://wallpaperaccess.com/nba-laptop) - provided the wallpaper image
 - [Grammarly](https://app.grammarly.com) - was used to check typography.
-- [Am I Responsive](https://ui.dev/amiresponsive?url=https://joaohigino.github.io/CHANGE/) - was used to produce the website mockup.
-- [JSHint](https://jshint.com/) - was used to find errors in Javascript code
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://nbaquizgame.herokuapp.com/) - was used to produce the website mockup.
 
 
 ## Testing
