@@ -105,7 +105,7 @@ At the end of each game, you will be asked if you want to play again.
 
  - Safari
 
- ![safari checker](documents/safari.jpeg)
+ ![safari checker](documents/safari.png)
 
 
 
