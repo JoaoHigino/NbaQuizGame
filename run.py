@@ -68,7 +68,6 @@ def new_game():
 
 
 def check_answer(answer, guess):
-
     if answer == guess:
         print("CORRECT!")
         return 1
@@ -112,7 +111,7 @@ def play_again():
                 return False
         else:
             clear()
-            print("It's not a valid option, please try again")
+            print(f"{response} Is not a valid option, please try again")
 
 # -------------------------
 
