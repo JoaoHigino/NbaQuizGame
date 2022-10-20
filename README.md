@@ -61,14 +61,23 @@ At the end of each game, you will be asked if you want to play again.
 
 ![invalid answer](documents/wronganswer.png)
 
+
+![invalid answer](documents/error.png)
+
+
+![invalid answer](documents/error2.png)
+
+
   - When the game concludes the results are presented with all the player answers and the correct answers, which will give a score out of 20 and a total %.
 
 ![final](documents/final.png)
 
-  - After the final result a message asks if the player wants to play again, if the answer is "yes" the game will restart and if the answer is "no" a BYE message shows and the program ends.
+  - After the final result a message asks if the player wants to play again, if the answer is "yes" the game will restart and if the answer is "no" a BYE message shows and the program ends. If the answer is anything besides "yes" or "no" an error message will show up and asks the player to try again.
 
 ![play again](documents/playagain.png)
 
+
+![play again](documents/error3.png)
 
 
 ## Features Left to Implement
@@ -115,6 +124,8 @@ At the end of each game, you will be asked if you want to play again.
 
   - Built into Code Institute template. Add-ons allow for error checking.
   - Pep8 website down for testing.
+
+![problems](documents/terminal.png)  
 
 
 ### Unfixed Bugs
