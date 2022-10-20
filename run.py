@@ -51,8 +51,11 @@ def new_game():
     correct_guesses = 0
     question_num = 1
 
-    for key in QUESTIONS:
+    for index, key in enumerate(QUESTIONS):
         print("-------------------------")
+        print(f"    QUESTION # {index + 1}")
+        print("-------------------------")
+
         print(key)
         for i in OPTIONS[question_num-1]:
             print(i)
