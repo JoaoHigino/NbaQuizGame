@@ -17,8 +17,6 @@
             max-width: 50rem;
             height: 100vh;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-image: url(images/nba.png);
-            background-size: cover;
             display: flex;
             padding-top: 7.5em;
             align-content: center;
@@ -27,6 +25,10 @@
             justify-content: center;
         }
 
+        #background{
+            background-image: url(images/nba.png);
+            background-size: cover;
+        }
         /* Styles for main Div container */
         .main-content {
             display: contents;
@@ -204,7 +206,9 @@
         }
     </style>
 </head>
-
-@{body}
+<div>
+    @{body}
+</div>
+<div id="background"></div>
 
 </html>
