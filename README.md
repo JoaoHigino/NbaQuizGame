@@ -99,6 +99,21 @@ At the end of each game, you will be asked if you want to play again.
 
 ## Testing
 
+### User input Testing
+
+- User can only enter alpha caracters
+
+![play again](documents/error4.png)
+
+- User can only enter A,B,C or D.
+
+![invalid answer](documents/error2.png)
+
+- User can only select yes or no.
+
+![play again](documents/error3.png)
+
+
 ### Browser testing
 
  - Chrome
@@ -116,8 +131,6 @@ At the end of each game, you will be asked if you want to play again.
  - Safari
 
  ![safari checker](documents/safari.png)
-
-
 
 
 ### Validator Testing 
