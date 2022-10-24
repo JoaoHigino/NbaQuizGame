@@ -53,7 +53,7 @@ def new_game():
 
     for index, key in enumerate(QUESTIONS):
         print("-------------------------")
-        print(f"    QUESTION # {index + 1}")
+        print(f" QUESTION # {index + 1} of {len(QUESTIONS)}")
         print("-------------------------")
 
         print(key)
