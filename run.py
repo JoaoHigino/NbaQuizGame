@@ -108,19 +108,48 @@ def display_score(correct_guesses, guesses):
     print(f"{Fore.YELLOW}RESULTS")
     print("-------------------------")
 
+    """
+    grab the question's values
+    """
+    ANSWERS = [*QUESTIONS.values()]
+    """
+    zip the results of correct answers with user's guesses
+    """
+    results = zip(ANSWERS, guesses)
+    """
+    print all correct answers
+    """
     print("Answers: ", end="")
-    for i in QUESTIONS:
-        print(f"{Fore.CYAN}{QUESTIONS.get(i)}", end=" ")
+    for a in ANSWERS:
+        print(f"{Fore.CYAN}{a}", end=" ")
     print()
-
+    """
+    print the user's guesses
+    """
     print("Guesses: ", end="")
-    for i in guesses:
-        print(f"{Fore.CYAN}{i}", end=" ")
-    print()
+    for q, g in results:
+        if (g == q):
+            """
+            user guessed correctly
+            """
+            print(f"{Fore.GREEN}{g}", end=" ")
+        else:
+            """
+            user guessed wrong
+            """
+            print(f"{Fore.RED}{g}", end=" ")
+    print("\n")
 
-    score = int((correct_guesses/len(QUESTIONS))*100)
-    print(f"You scored : {Fore.CYAN}{correct_guesses} out of {len(QUESTIONS)}")
-    print(f"Your score is: {Fore.CYAN}{str(score)}%\n")
+
+"""
+    total questions guessed correct
+    """
+score = int((correct_guesses/len(QUESTIONS))*100)
+print(f"You scored : {Fore.CYAN}{correct_guesses} out of {len(QUESTIONS)}")
+"""
+    percentage of correctly guessed answers
+    """
+print(f"Your score is: {Fore.CYAN}{str(score)}%\n")
 
 
 def play_again():
