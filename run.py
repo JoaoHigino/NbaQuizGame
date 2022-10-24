@@ -145,7 +145,8 @@ def play_again():
     while True:
         response = input(
             f"Do you want to play again? "
-            f"({Fore.GREEN}yes or {Fore.RED}no): ").upper()
+            f"({Fore.GREEN}yes{Fore.WHITE} or "
+            f"{Fore.RED}no{Fore.WHITE}): ").upper()
         choices = ["YES", "NO"]
         if response in choices:
             if response == "YES":
