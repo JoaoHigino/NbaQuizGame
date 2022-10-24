@@ -95,6 +95,8 @@ At the end of each game, you will be asked if you want to play again.
 - [Grammarly](https://app.grammarly.com) - was used to check typography.
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://nbaquizgame.herokuapp.com/) - was used to produce the website mockup.
 - [Whitenoise](https://pypi.org/project/whitenoise) - Used to static files on Heroku
+- [Colorama](https://pypi.org/project/colorama/) - Used for colors
+
 
 
 ## Testing
