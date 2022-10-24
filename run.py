@@ -1,9 +1,12 @@
 import os
-from data import QUESTIONS, OPTIONS
 import pyfiglet
+from data import QUESTIONS, OPTIONS
 
 
 def clear():
+    """
+    This function clears the terminal
+    """
     os.system("cls" if os.name == "nt" else "clear")
 
 
@@ -19,10 +22,11 @@ print("-------------------------")
 print("If you still feel confident, please follow the steps below:")
 print("-------------------------")
 
-# username menu
-
 
 def check_username():
+    """
+    This function checks the user enters a valid alpha username
+    """
     while True:
         username = input("Type in your name and press enter: ")
         if username.isalpha():
@@ -33,9 +37,10 @@ def check_username():
         print(f"{username} is not valid. try again")
 
 
-# Answers function
 def check_input():
-
+    """
+    This function checks the user enters a valid choice
+    """
     while True:
         guess = input("Enter (A, B, C, or D): ").upper()
         choices = ['A', 'B', 'C', 'D']
@@ -44,8 +49,10 @@ def check_input():
         print(f"{guess} is not valid. try again")
 
 
-# This is the main function which will run the quiz
 def new_game():
+    """
+    This is the main function which will run the quiz
+    """
     clear()
     guesses = []
     correct_guesses = 0
@@ -67,10 +74,11 @@ def new_game():
 
     display_score(correct_guesses, guesses)
 
-# This function will check if the answer is correct or not
-
 
 def check_answer(answer, guess):
+    """
+    This function will check if the answer is correct or not
+    """
     if answer == guess:
         print("CORRECT!")
         return 1
@@ -78,10 +86,11 @@ def check_answer(answer, guess):
         print("WRONG!")
         return 0
 
-# This function will compile all the awswers and give a final result
-
 
 def display_score(correct_guesses, guesses):
+    """
+    This function will compile all the awswers and give a final result
+    """
     print("-------------------------")
     print("RESULTS")
     print("-------------------------")
@@ -100,10 +109,11 @@ def display_score(correct_guesses, guesses):
     print(f"You scored : {correct_guesses} out of {len(QUESTIONS)}")
     print(f"Your score is: {str(score)}%")
 
-# This funcion will ask the player if they want to play again
-
 
 def play_again():
+    """
+    This funcion will ask the player if they want to play again
+    """
     while True:
         response = input("Do you want to play again? (yes or no): ").upper()
         choices = ["YES", "NO"]
@@ -116,8 +126,6 @@ def play_again():
             clear()
             print(f"{response} Is not a valid option, please try again")
 
-# -------------------------
-
 
 check_username()
 
@@ -125,5 +133,3 @@ while play_again():
     new_game()
 
 print("BYE!")
-
-# -------------------------
