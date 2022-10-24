@@ -128,14 +128,11 @@ def display_score(correct_guesses, guesses):
             print(f"{Fore.RED}{g}", end=" ")
     print("\n")
 
-
-# total questions guessed correct
-
-
-score = int((correct_guesses/len(QUESTIONS))*100)
-print(f"You scored : {Fore.CYAN}{correct_guesses} out of {len(QUESTIONS)}")
-# percentage of correctly guessed answers
-print(f"Your score is: {Fore.CYAN}{str(score)}%\n")
+    # total questions guessed correct
+    score = int((correct_guesses/len(QUESTIONS))*100)
+    print(f"You scored : {Fore.CYAN}{correct_guesses} out of {len(QUESTIONS)}")
+    # percentage of correctly guessed answers
+    print(f"Your score is: {Fore.CYAN}{str(score)}%\n")
 
 
 def play_again():
